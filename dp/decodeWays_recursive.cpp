@@ -36,4 +36,24 @@ public:
         hist[decode_ptr+2] = ans-temp_ans;
       }
     }
+  
+    bool isValid(string s)
+    {
+      if (s.length()==1)
+      {
+         if (s[0] == "0")
+           return false;
+        
+        if ()
+      }
+      
+      if (s.length()==1)
+      
+      if (s.length() == 2 && s[0] == "0")
+        return isValid(s[1]);
+      
+      string sub = 
+      return true;
+    }
+  
 };
